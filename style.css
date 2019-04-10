@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  html,  body {
-    background-color: #000;
-    width: 100%;
-    height: 100%;
-    font-size: 1.5vw;
-=======
 body{
     background-color: #f5d9d5;
     color: #f498b8;
@@ -38,7 +23,6 @@ body{
 }
 
 h1{
->>>>>>> Chocodraw
     color: white;
 }
 
@@ -71,23 +55,6 @@ span, h2{
     font-size: 2rem; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
   }
-<<<<<<< HEAD
-    li {
-      margin: 0 -2px 0 0;
-      padding: 0px;
-      display: inline-block;
-      width: 24%;
-      font-size: 72px;
-      font-size: 6vw;
-      text-align: center;
-    }
-      .label {
-        color: #adafb2;
-        font-size: 18px;
-        font-size: 1.5vw;
-        text-transform: uppercase;
-      }
-=======
 
 
 
@@ -95,5 +62,4 @@ span, h2{
 
 
 
->>>>>>> Chocodraw
 
