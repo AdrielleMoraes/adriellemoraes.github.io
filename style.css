@@ -1,44 +1,65 @@
-html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  html,  body {
-    background-color: #000;
-    width: 100%;
-    height: 100%;
+body{
+    background-color: #f5d9d5;
+    color: #f498b8;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#MainNavBar .navbar-brand{
+    color:#EA1C2C;
+}
+
+#MainNavBar, #MainNavBar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#MainNavBar .nav-link{
+    color:#ffff;
+}
+
+#MainNavBar .nav-link:hover{
+    color:#EA1C2C;
+}
+
+h1{
     color: white;
+}
+
+span, h2{
+    color: #EA1C2C;
+}
+.bg-dark {
+      background-color: rgba(255, 255, 255, 0) !important;
   }
-  
-  ul#countdown {
-    position: relative;
-    top: 30%;
-    transform: translateY(-50%);
-    width: 50%;
+
+.bg-dark.scrolled {
+    background-color: rgb(222,192,222) !important;
+}
+
+
+ .image-cropper img{
+    display: block;
     margin: 0 auto;
-    padding: 15px 0 20px 0;
-    color: #fff;
-    border: 1px solid #adafb2;
-    border-width: 1px 0;
-    overflow: hidden;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+    height: auto;
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.btn {
+
+    font-size: 2rem; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
   }
-    li {
-      margin: 0 -2px 0 0;
-      padding: 0px;
-      display: inline-block;
-      width: 24%;
-      font-size: 72px;
-      font-size: 6vw;
-      text-align: center;
-    }
-      .label {
-        color: #adafb2;
-        font-size: 18px;
-        font-size: 1.5vw;
-        text-transform: uppercase;
-      }
+
+
+
+
+
+
+
+
