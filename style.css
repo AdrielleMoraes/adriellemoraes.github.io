@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html,  body {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vw;
+    color: white;
+  }
+  
+  ul#countdown {
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 0 20px 0;
+    color: #fff;
+    border: 1px solid #adafb2;
+    border-width: 1px 0;
+    overflow: hidden;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
+    li {
+      margin: 0 -2px 0 0;
+      padding: 0px;
+      display: inline-block;
+      width: 24%;
+      font-size: 72px;
+      font-size: 6vw;
+      text-align: center;
+    }
+      .label {
+        color: #adafb2;
+        font-size: 18px;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+      }
+
