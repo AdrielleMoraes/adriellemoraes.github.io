@@ -1,6 +1,6 @@
 body{
-    background-color: #f5d9d5;
-    color: #f498b8;
+    background-color: #f3effe;
+    color: #292f33;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-weight: 100;
@@ -8,7 +8,7 @@ body{
     line-height: 2;
 }
 #mainNavbar .navbar-brand{
-    color:#EA1C2C;
+    color:#ff4778;
 }
 
 #mainNavbar, #mainNavbar .navbar-brand{
@@ -17,27 +17,31 @@ body{
 }
 
 #mainNavbar .nav-link{
-    color: white;
+    color: #292f33;
     text-align: left;
 }
 
 #mainNavbar .nav-link:hover {
-    color:#EA1C2C;
+    color:#ff4778;
 }
 
+.scrolled #navbarNav .nav-link{
+    color: #ffffff;
+}
 
-
-.scrolled {
-    background:  rgb(222,192,222);
+.scrolled{
+    background:  #36174d;
     transition: background 500ms;
 }
 
 h1{
-    color: white;
+    color: #292f33  ;
+    font-size: 3.2vw;
 }
 
 span, h2{
-    color: #EA1C2C;
+    /* color: #6f36bc; */
+    color: #ff4778;
     font-size: 1em;
 }
 
@@ -60,7 +64,20 @@ span, h2{
     cursor: pointer; /* Mouse pointer on hover */
   }
 
+p{
+    margin: 5%;
+}
 
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ff4778, rgba(0, 0, 0, 0));
+}
+
+.jumbotron{
+    background-color: #36174d;
+    color: #ffffff;
+}
 
 
 
