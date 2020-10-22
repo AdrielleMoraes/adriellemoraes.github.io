@@ -4,11 +4,24 @@ body{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-weight: 100;
-    font-size: 1.5rem;
+
     line-height: 2;
 }
 #mainNavbar .navbar-brand{
     color:#ff4778;
+}
+
+.dropdown-menu{
+    background-color: #f3effe;
+    color: #292f33;
+}
+
+.dropdown-menu a{
+    color: #292f33;
+}
+
+.dropdown-item:hover{
+    color: #292f33 !important;
 }
 
 #mainNavbar, #mainNavbar .navbar-brand{
@@ -25,9 +38,10 @@ body{
     color:#ff4778;
 }
 
-.scrolled #navbarNav .nav-link{
+.scrolled #navbarNav .nav-link, .scrolled .dropdown-menu a{
     color: #ffffff;
 }
+
 
 .scrolled{
     background:  #36174d;
@@ -40,9 +54,7 @@ h1{
 }
 
 span, h2{
-    /* color: #6f36bc; */
     color: #ff4778;
-    font-size: 1em;
 }
 
 

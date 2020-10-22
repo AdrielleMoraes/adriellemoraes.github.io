@@ -39,8 +39,15 @@
            <li class="nav-item">
             <a class="nav-link" href="#about">ABOUT</a>
           </li>
-          <li class="nav-item">
-           <a target="_blank" class="nav-link" href="https://orcid.org/0000-0003-2539-3747">RESEARCH</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              RESEARCH
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a target="_blank" class="dropdown-item" href="https://orcid.org/0000-0003-2539-3747">ORCID profile</a>
+              <a target="_blank" class="dropdown-item" href="https://www.adaptcentre.ie/news/researcher-spotlight-adrielle-nazar-moraes-on-vr-audio-for-auditory-testing">Researcher Spotlight</a>
+              <a target="_blank" class="dropdown-item" href="https://www.siliconrepublic.com/machines/adrielle-nazar-moraes-ait-adapt-vr">Silicon Republic</a>
+            </div>
          </li>
           </li>
            <li class="nav-item">
@@ -69,6 +76,13 @@
 
     <div class="jumbotron jumbotron-fluid">Hello! This is a place where I publish my adventures as a brazilian researcher living in Ireland</div>
 
+    <!-- about myself -->
+    <div id="about">
+      <h2>About Myself</h2>
+      <p>Hello! My name is Adrielle and I am passionate about technology! Why? Why not? I feel like technology is a superpower, you can do everything you want! Actually, you can <strong>build</strong> anything.
+         Come with me to discover why STEM can be your future!</p>
+    </div>
+
     <div class="container-fluid px-0">
       <div class="row align-items-center my-5">
         <div class="col-md-6 order-2 order-md-1">
@@ -78,18 +92,27 @@
         </div>
         <div class="col-md-6 order-1 order-md-2">
           <h2>SCIENCE</h2>
-          <span class="d-none d-md-block">
+          <span class=" d-md-block">
               <i class="fas fa-atom"></i>
-          </span>             
+          </span>  
+          <p>
+            At moment, I am enrolled as a master by Research degree in Software Engineering at Athlone Institute of Technology. This research is fully funded by Science 
+            Foundation Ireland in partnership with <a target="_blank" href="https://www.adaptcentre.ie">ADAPT</a> centre and <a target="_blank" href="https://www.ait.ie/">AIT</a>. 
+            This project aims to develop an immersive application to evaluate the Quality of Experience (QoE) of a listener performing sound localisation 
+             in a virtual reality environment
+          </p>           
         </div>
       </div>
 
         <div class="row align-items-center my-5">
           <div class=" col-md-6">
             <h2>TECHNOLOGY</h2>
-            <span class="d-none d-md-block">
-                <i class="fas fa-laptop-code"></i>                       
+            <span class="d-md-block">
+                <i class="fas fa-laptop-code"></i>       
             </span>
+            <p>I am passionate about technologies and for this reason I keep my <a target="_blank" href="https://github.com/AdrielleMoraes">github</a> page updated with all my projects. My goal is to continuously make contributions to different repositories.
+              In our area it is important to keep yourself updated and there is no downside in acquiring knowledge
+            </p>   
           </div>
           <div class="col-md-6 image-cropper">
             <img class="img-fluid" src="imgs\sumocup.jpg">
@@ -104,11 +127,13 @@
           </div>
           <div class="col-md-6 order-1 order-md-2">
             <h2>ENGINEERING</h2>
-            <span class="d-none d-lg-block">
+            <span class="d-lg-block">
                 <i class="fas fa-ruler-combined"></i>
             </span>
-<!--             <p>You may not know, but all our printers were designed for you to keep a high standard of reliability and cleaness</p>    
-            <p>You can start now! Don't waste more time and join our team of chocolovers!</p> -->
+            <p>
+              I am also a tutor at <a target="_blank" href="https://coderdojoathlone.com/en/">Coder Dojo Athlone</a>. We are constantly developing projects related to electronics, web development 
+              and 3D modelling
+            </p>
           </div>
         </div>
       </div>
@@ -116,25 +141,21 @@
         <div class="row align-items-center my-5">
           <div class=" col-md-6">
             <h2>MATHEMATICS</h2>
-            <span class="d-none d-md-block">
+            <span class=" d-md-block">
                 <i class="fas fa-square-root-alt"></i>
             </span>
-<!--             <p>Inspire</p>
-            <p>you won't loose the originality of your own signature!</p> -->
+            <p>Working with signal processing requires knowledge in mathematics. Besides that, the behaviour of some objects can be mathematically modelled. 
+              This strategy is very handy when it comes to developing Virtual Reality Environments</p>
           </div>
           <div class="col-md-6 image-cropper">
             <img class="img-fluid" src="imgs\Adrielle_FotoProjeto.jpeg">
           </div>     
         </div>
 
-      <!-- about myself -->
-      <div id="about">
-        <h2>About Myself</h2>
-        <p>Hello! My name is Adrielle and I am passionate about technology! Why? Why not? I feel like technology is a superpower, you can do everything you want! Actually, you can <strong>build</strong> anything. Come with me to discover why STEM can be your future!</p>
-      </div>
+
 
     <div class="jumbotron jumbotron-fluid m-0 p-0">
-      <p> If you just want to have a chat, message me! Or to play any MMRPG, who doesn't love a good online game?</p>
+      <p class="p-4"> If you just want to have a chat, message me! Or to play any MMRPG, who doesn't love a good online game?</p>
       <div id = "contact">
           <div class="row btn-group">           
             <div class="col">
@@ -176,6 +197,9 @@
           var $nav = $("#mainNavbar");
           $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()/2);
           $nav.toggleClass('fixed-top', $(this).scrollTop() > $nav.height()/2);
+
+          var $drop = $(".dropdown-menu");
+          $drop.toggleClass('scrolled', $(this).scrollTop() > $nav.height()/2);
         });
       });
     </script>
