@@ -3,7 +3,7 @@ body{
     color: #292f33;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    font-weight: 100;
+    font-weight: 80;
 
     line-height: 2;
 }
@@ -26,7 +26,7 @@ body{
 
 #mainNavbar, #mainNavbar .navbar-brand{
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 80;
 }
 
 #mainNavbar .nav-link{
