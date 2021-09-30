@@ -3,9 +3,6 @@ body{
     color: #292f33;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    font-weight: 100;
-
-    line-height: 2;
 }
 #mainNavbar .navbar-brand{
     color:#ff4778;
@@ -25,7 +22,7 @@ body{
 }
 
 #mainNavbar, #mainNavbar .navbar-brand{
-    font-size: 1.5rem;
+    font-size: 14px;
     font-weight: 100;
 }
 
@@ -42,6 +39,11 @@ body{
     color: #ffffff;
 }
 
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+
+}
 
 .scrolled{
     background:  #36174d;
