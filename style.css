@@ -3,6 +3,12 @@ body{
     color: #292f33;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+<<<<<<< HEAD
+=======
+    font-weight: 80;
+
+    line-height: 2;
+>>>>>>> fd957ece8a16d970841747fb0fb208575cbd7bd4
 }
 #mainNavbar .navbar-brand{
     color:#ff4778;
@@ -22,8 +28,13 @@ body{
 }
 
 #mainNavbar, #mainNavbar .navbar-brand{
+<<<<<<< HEAD
     font-size: 14px;
     font-weight: 100;
+=======
+    font-size: 1.5rem;
+    font-weight: 80;
+>>>>>>> fd957ece8a16d970841747fb0fb208575cbd7bd4
 }
 
 #mainNavbar .nav-link{
