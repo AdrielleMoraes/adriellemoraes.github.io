@@ -1,8 +1,8 @@
 
-A custom website built with
+A custom website built only with
 
-<li>React</li>
-<li>Mongo</li>
-<li>Node</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
 
-Personnal website
+This is a Personnal website where I show some of my projects and a bit about my life as a researcher in Ireland!
