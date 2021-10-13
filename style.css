@@ -46,6 +46,7 @@ body{
 .scrolled{
     background:  #36174d;
     transition: background 500ms;
+    width: 100%;
 }
 
 h1{
