@@ -44,7 +44,7 @@ body{
 }
 
 .scrolled{
-    background:  #36174d;
+    background:  #252323;
     transition: background 500ms;
     width: 100%;
 }
@@ -88,10 +88,13 @@ hr{
 }
 
 .jumbotron{
-    background-color: #36174d;
+    background-color: #252323;
     color: #ffffff;
 }
 
+.full-width{
+    width: 100%;
+}
 
 
 
