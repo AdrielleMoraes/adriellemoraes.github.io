@@ -8,6 +8,7 @@ body{
     color:#292f33;
 }
 
+
 .dropdown-menu{
     background-color: #f3effe;
     color: #292f33;
@@ -32,7 +33,7 @@ body{
 }
 
 #mainNavbar .nav-link:hover {
-    color:#ff4778;
+    color:#252323;
 }
 
 .scrolled #navbarNav .nav-link, .scrolled .dropdown-menu a{
@@ -55,7 +56,7 @@ h1{
 }
 
 span, h2{
-    color: #ff4778;
+    color: #292f33;
 }
 
 
