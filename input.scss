@@ -16,7 +16,6 @@ body{
   a{
     color: $font-colour;
   }
-
   .dropdown-menu{
     background-color: $background-colour;
     color: $font-colour;
@@ -25,7 +24,6 @@ body{
     background-color: $primary-colour;
     color: $hover-light;
   }
-  
   a:hover {
     color:$primary-colour;
   }
@@ -52,8 +50,7 @@ body{
   }
 }
 
-
-.navbar{
+#navbarNav{
   font-size: 14px;
   font-weight: 80;
   justify-content: flex-end;
@@ -88,7 +85,7 @@ hr{
 
 .jumbotron{
   background-color: $primary-colour;
-  color: #ffffff;
+  color: $hover-light;
 }
 
 

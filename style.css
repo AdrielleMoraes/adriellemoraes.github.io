@@ -38,7 +38,7 @@ body {
   color: #ffffff;
 }
 
-.navbar {
+#navbarNav {
   font-size: 14px;
   font-weight: 80;
   justify-content: flex-end;
