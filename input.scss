@@ -1,0 +1,97 @@
+$background-colour: #F9FBF2;
+$hover-light: #ffffff;
+$font-colour: #2E3532;
+$primary-colour: #66101f;
+$secondary-colour: #23CE6B;
+$content-colour: #FF8552;
+
+body{
+  background-color: $background-colour;
+  color: $font-colour;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.nav-top{
+  a{
+    color: $font-colour;
+  }
+
+  .dropdown-menu{
+    background-color: $background-colour;
+    color: $font-colour;
+  }
+  .dropdown-item:hover{
+    background-color: $primary-colour;
+    color: $hover-light;
+  }
+  
+  a:hover {
+    color:$primary-colour;
+  }
+}
+
+.scrolled{
+  background:  $primary-colour;
+  transition: background 500ms;
+
+  a{
+    color:$background-colour;
+  }
+
+  .dropdown-menu{
+    background-color: $primary-colour;
+    color: $font-colour;
+  }
+  .dropdown-item:hover{
+    color: $font-colour;
+  }
+  
+  a:hover {
+    color:$hover-light;
+  }
+}
+
+
+.navbar{
+  font-size: 14px;
+  font-weight: 80;
+  justify-content: flex-end;
+}
+
+h1{
+  font-size: 2.0rem;
+}
+
+.image-cropper img{
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 60%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.btn {
+  font-size: 2rem; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $primary-colour, rgba(0, 0, 0, 0));
+}
+
+.jumbotron{
+  background-color: $primary-colour;
+  color: #ffffff;
+}
+
+
+
+
+
